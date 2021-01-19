@@ -16,7 +16,7 @@ public class Max3m {
 	public static void main(String[] args) {
 		
 		
-		System.out.println("a = 1, b = 3, c = 5 Áß ÃÖ´ë°ªÀº " + max3(1,3,5));
+		System.out.println("a = 1, b = 3, c = 5 ì¤‘ ìµœëŒ€ê°’ì€ " + max3(1,3,5));
 		
 		
 	}

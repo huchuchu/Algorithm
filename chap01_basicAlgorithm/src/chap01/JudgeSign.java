@@ -9,15 +9,15 @@ public class JudgeSign {
 		
 		Scanner val = new Scanner(System.in);
 		
-		System.out.println("Á¤¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä");
+		System.out.println("ì •ìˆ˜ë¥¼ ì…ë ¥í•˜ì„¸ìš”");
 		int a = val.nextInt();
 		
 		if (a>0) {
-			System.out.println("¾ç¼öÀÔ´Ï´Ù");
+			System.out.println("ì–‘ìˆ˜ì…ë‹ˆë‹¤");
 		}else if (a<0) {
-			System.out.println("À½¼öÀÔ´Ï´Ù");
+			System.out.println("ìŒìˆ˜ì…ë‹ˆë‹¤");
 		}else {
-			System.out.println("0ÀÔ´Ï´Ù");
+			System.out.println("0ì…ë‹ˆë‹¤");
 		}
 		
 		

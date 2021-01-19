@@ -12,13 +12,13 @@ public static void main(String[] args) {
 	System.out.println("a : "); int a = val.nextInt();
 	System.out.println("b : "); int b = val.nextInt();
 	
-	System.out.println(a +", " + b +"ÀÇ  ÇÕÀ» ±¸ÇÏÀÚ ");
+	System.out.println(a +", " + b +"ì˜  í•©ì„ êµ¬í•˜ì ");
 	
-	//Àı´ë°ª??
+	//ì ˆëŒ€ê°’??
 	
 	int sum = (a+b) * (( Math.abs(a-b) + 1)/2)+ ((Math.abs(a-b)+1) %2 == 1 ? (a+b)/2 : 0 ) ;
 	
-	System.out.println("ÇÕ : " + sum);
+	System.out.println("í•© : " + sum);
 			
 //	System.out.println( (a+b) * (( Math.abs(a-b) + 1)/2) );
 	

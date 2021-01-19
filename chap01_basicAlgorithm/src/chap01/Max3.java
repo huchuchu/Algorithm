@@ -9,16 +9,16 @@ public class Max3 {
 		Scanner val = new Scanner(System.in);
 		
 		
-		System.out.println("ÃÖ´ë°ª ±¸ÇÏ±â!!");
-		System.out.println("a ÀÇ  °ª: "); int a = val.nextInt();
-		System.out.println("b ÀÇ °ª : "); int b = val.nextInt();
-		System.out.println("c ÀÇ °ª : "); int c = val.nextInt();
+		System.out.println("ìµœëŒ€ê°’ êµ¬í•˜ê¸°!!");
+		System.out.println("a ì˜  ê°’: "); int a = val.nextInt();
+		System.out.println("b ì˜ ê°’ : "); int b = val.nextInt();
+		System.out.println("c ì˜ ê°’ : "); int c = val.nextInt();
 		
 		int max = a;
 		if(b > max) max = b;
 		if(c > max) max = c;
 		
-		System.out.println("ÃÖ´ë°ªÀº : " + max);
+		System.out.println("ìµœëŒ€ê°’ì€ : " + max);
 		
 		
 		

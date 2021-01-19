@@ -30,11 +30,11 @@ public class Median {
 		
 		Scanner val = new Scanner(System.in);
 		
-		System.out.println("aÀÇ °ª : "); int a = val.nextInt();
-		System.out.println("bÀÇ °ª : "); int b = val.nextInt();
-		System.out.println("cÀÇ °ª : "); int c = val.nextInt();
+		System.out.println("aì˜ ê°’ : "); int a = val.nextInt();
+		System.out.println("bì˜ ê°’ : "); int b = val.nextInt();
+		System.out.println("cì˜ ê°’ : "); int c = val.nextInt();
 		
-		System.out.println("Áß¾Ó°ªÀº " + med3(a,b,c) + "ÀÔ´Ï´Ù");
+		System.out.println("ì¤‘ì•™ê°’ì€ " + med3(a,b,c) + "ì…ë‹ˆë‹¤");
 		
 		
 		

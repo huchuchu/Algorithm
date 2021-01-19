@@ -11,11 +11,11 @@ public class Gauss {
 	
 		System.out.println("n : "); int n = val.nextInt();
 		
-		System.out.println("1ºÎÅÍ"+n+"±îÁöÀÇ ÇÕ");
+		System.out.println("1ë¶€í„°"+n+"ê¹Œì§€ì˜ í•©");
 		
 		int sum = (1+n)*(n/2)+( n%2==1 ? (n+1)/2 : 0);
 		
-		System.out.println("ÇÕÀº : " + sum);
+		System.out.println("í•©ì€ : " + sum);
 		
 		
 		
